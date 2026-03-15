@@ -18,6 +18,9 @@ int main()
 
     cout << g;
 
+    Guild *tempGuild = new Guild("Gondor");
+    delete tempGuild; 
+
 
     return 0;
 }
